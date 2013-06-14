@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidHour.iml" filepath="$PROJECT_DIR$/AndroidHour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" filepath="$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" />
+    </modules>
+  </component>
+</project>
+
