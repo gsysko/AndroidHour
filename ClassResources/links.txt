@@ -1,0 +1,2 @@
+---   GIT   ---
+Book covering basic git concepts: http://git-scm.com/book
