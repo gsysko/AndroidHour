@@ -42,9 +42,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                         android.R.layout.simple_list_item_1,
                         android.R.id.text1,
                         new String[] {
-                                getString(R.string.title_section1),
-                                getString(R.string.title_section2),
-                                getString(R.string.title_section3),
+                                "Intents",
+                                "Broadcasts",
+                                "Package manager",
                         }),
                 this);
     }
@@ -72,12 +72,26 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-    
+
     @Override
     public boolean onNavigationItemSelected(int position, long id) {
         // When the given dropdown item is selected, show its contents in the
         // container view.
-        Fragment fragment = new DummySectionFragment();
+        Fragment fragment;
+        switch (position){
+            case 0 :
+                fragment = new IntentSelectionFragment();
+                break;
+            case 1 :
+                fragment = new DummySectionFragment();
+                break;
+            case 2 :
+                fragment = new DummySectionFragment();
+                break;
+            default :
+                fragment = new DummySectionFragment();
+                break;
+        }
         Bundle args = new Bundle();
         args.putInt(DummySectionFragment.ARG_SECTION_NUMBER, position + 1);
         fragment.setArguments(args);

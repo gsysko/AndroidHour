@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="8dp"
+            android:background="@drawable/card_bg" android:padding="16dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Explicit intents:"
+                android:id="@+id/tv_explicit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Launch HTC help"
+                android:id="@+id/button_explicit" android:layout_below="@+id/tv_explicit" android:layout_centerHorizontal="true"
+                />
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="8dp"
+            android:background="@drawable/card_bg" android:padding="16dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Implicit intents:"
+                android:id="@+id/tv_implicit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Open M-Support"
+                android:id="@+id/button_implicit" android:layout_below="@+id/tv_implicit" android:layout_centerHorizontal="true"
+                />
+    </RelativeLayout>
+</LinearLayout>
