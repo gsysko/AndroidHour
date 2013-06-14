@@ -1,2 +1,3 @@
 ---   GIT   ---
+GitHub: https://github.com/
 Book covering basic git concepts: http://git-scm.com/book
