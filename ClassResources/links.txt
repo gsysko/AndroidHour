@@ -1,3 +1,13 @@
 ---   GIT   ---
 GitHub: https://github.com/
 Book covering basic git concepts: http://git-scm.com/book
+
+--- ANDROID ---
+- Intents -
+http://developer.android.com/training/basics/intents/sending.html
+
+- Fragments -
+Inflation - attaching to root: http://www.doubleencore.com/2013/05/layout-inflation-as-intended/
+
+- Context -
+What are the different types of context?: http://www.doubleencore.com/2013/06/context/
