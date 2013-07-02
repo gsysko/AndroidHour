@@ -576,7 +576,11 @@
       <created>1372794098041</created>
       <updated>1372794098041</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added section covering intents (implicit and explicit)">
+      <created>1372794326758</created>
+      <updated>1372794326758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
