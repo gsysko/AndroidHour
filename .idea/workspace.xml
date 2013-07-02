@@ -102,7 +102,7 @@
       <file leaf-file-name="PackageManagerFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.78451884" vertical-offset="135" max-vertical-offset="810">
+            <state line="22" column="13" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4079498" vertical-offset="135" max-vertical-offset="810">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +187,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="26" />
+    <option name="x" value="7" />
+    <option name="y" value="132" />
     <option name="width" value="1680" />
     <option name="height" value="874" />
   </component>
@@ -384,7 +385,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/vcs.xml" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -580,11 +581,15 @@
       <created>1372794326758</created>
       <updated>1372794326758</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added section covering intents (implicit and explicit)">
+      <created>1372794391562</created>
+      <updated>1372794391562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1680" height="874" extended-state="0" />
+    <frame x="7" y="132" width="1680" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -757,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.78451884" vertical-offset="135" max-vertical-offset="810">
+        <state line="22" column="13" selection-start="576" selection-end="576" vertical-scroll-proportion="0.4079498" vertical-offset="135" max-vertical-offset="810">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
