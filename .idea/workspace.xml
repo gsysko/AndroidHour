@@ -11,7 +11,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="Added section covering intents (implicit and explicit)">
+    <list default="true" id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AndroidHour.iws" />
@@ -495,7 +495,11 @@
       <created>1373657066904</created>
       <updated>1373657066904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added section covering intents (implicit and explicit)">
+      <created>1373657232491</created>
+      <updated>1373657232491</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
