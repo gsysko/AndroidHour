@@ -499,7 +499,11 @@
       <created>1373657232491</created>
       <updated>1373657232491</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added section covering intents (implicit and explicit)">
+      <created>1373657323048</created>
+      <updated>1373657323048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
