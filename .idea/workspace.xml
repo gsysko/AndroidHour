@@ -11,11 +11,21 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" afterPath="$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour.iml" afterPath="$PROJECT_DIR$/AndroidHour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/build.gradle" afterPath="$PROJECT_DIR$/AndroidHour/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+    <list default="true" id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="Added section covering intents (implicit and explicit)">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/drawable-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/drawable-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/drawable-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/layout/fragment_main_dummy.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/menu/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/values-sw720dp-land/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/values-v11/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/values-v14/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/res/all/release/values/values.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/source/buildConfig/release/com/uxd/androidhour/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidHour/build/source/r/release/com/uxd/androidhour/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" afterPath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AndroidHour.iws" />
@@ -36,6 +46,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,7 +83,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -85,7 +95,7 @@
       <file leaf-file-name="intent_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="41" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
+            <state line="16" column="14" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -94,28 +104,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="links.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="0" selection-start="3517" selection-end="3517" vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1965">
+            <state line="84" column="45" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidHour/build.gradle">
+      <file leaf-file-name="IntentSelectionFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidHour.iml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidHour.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="67" selection-start="106" selection-end="106" vertical-scroll-proportion="0.031380754" vertical-offset="0" max-vertical-offset="478">
+            <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -124,25 +134,25 @@
       <file leaf-file-name="PackageManagerFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="24" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="900">
+            <state line="20" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidHour/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1078" column="28" selection-start="48946" selection-end="48946" vertical-scroll-proportion="0.0" vertical-offset="16155" max-vertical-offset="17205">
+            <state line="5" column="54" selection-start="166" selection-end="166" vertical-scroll-proportion="0.16741072" vertical-offset="0" max-vertical-offset="448">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
+      <file leaf-file-name="AndroidHour.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidHour.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="86" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+            <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -156,7 +166,6 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
@@ -196,7 +205,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1371842619000" />
+        <entry key="$PROJECT_DIR$" value="1371843003000" />
       </map>
     </option>
   </component>
@@ -204,19 +213,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntenSelectionFragment.java" />
-        <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" />
         <option value="$PROJECT_DIR$/ClassResources/links.txt" />
-        <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java" />
         <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" />
+        <option value="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java" />
         <option value="$PROJECT_DIR$/AndroidHour/build.gradle" />
         <option value="$PROJECT_DIR$/AndroidHour.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="42" />
-    <option name="width" value="1680" />
-    <option name="height" value="874" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +234,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -244,8 +253,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -261,20 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AndroidHour" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidHour" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidHour" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassResources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,6 +309,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,16 +320,16 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="options.lastSelected" value="editor.preferences.import" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea/vcs.xml" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="015d188448181e0a" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="T0628001BT" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD1" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Device1" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -496,6 +491,7 @@
       <changelist id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="" />
       <created>1371228540106</created>
       <updated>1371228540106</updated>
+      <workItem from="1371843026193" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="Added section covering intents (implicit and explicit)">
       <created>1371231508423</created>
@@ -509,65 +505,40 @@
       <created>1371237953015</created>
       <updated>1371237953015</updated>
     </task>
-    <task id="LOCAL-00004" summary="Added section covering intents (implicit and explicit)">
-      <created>1371846608528</created>
-      <updated>1371846608528</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Added section covering intents (implicit and explicit)">
-      <created>1372794098041</created>
-      <updated>1372794098041</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added section covering intents (implicit and explicit)">
-      <created>1372794326758</created>
-      <updated>1372794326758</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added section covering intents (implicit and explicit)">
-      <created>1372794391562</created>
-      <updated>1372794391562</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added section covering intents (implicit and explicit)">
-      <created>1372794920895</created>
-      <updated>1372794920895</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added section covering intents (implicit and explicit)">
-      <created>1372794931029</created>
-      <updated>1372794931029</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Added section covering intents (implicit and explicit)">
-      <created>1372795180894</created>
-      <updated>1372795180894</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3953000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="42" width="1680" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="828" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32633054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33231333" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25035867" sideWeight="0.6723164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32768363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290441" sideWeight="0.6710875" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20043103" sideWeight="0.6723164" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -633,116 +604,116 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1078" column="28" selection-start="48919" selection-end="48919" vertical-scroll-proportion="0.0" vertical-offset="16155" max-vertical-offset="17205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="86" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="14" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="5" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2010">
+        <state line="84" column="45" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.0" vertical-offset="1245" max-vertical-offset="1950">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="293" selection-end="293" vertical-scroll-proportion="0.04784689" vertical-offset="0" max-vertical-offset="1254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="41" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1078" column="28" selection-start="48946" selection-end="48946" vertical-scroll-proportion="0.0" vertical-offset="16155" max-vertical-offset="17205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="86" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
+        <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="24" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+        <state line="20" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="3517" selection-end="3517" vertical-scroll-proportion="0.0" vertical-offset="1079" max-vertical-offset="1830">
+        <state line="101" column="5" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidHour/build.gradle">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="18" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassResources/links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="45" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidHour.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="67" selection-start="106" selection-end="106" vertical-scroll-proportion="0.031380754" vertical-offset="0" max-vertical-offset="478">
+        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidHour/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="54" selection-start="166" selection-end="166" vertical-scroll-proportion="0.16741072" vertical-offset="0" max-vertical-offset="448">
           <folding />
         </state>
       </provider>
