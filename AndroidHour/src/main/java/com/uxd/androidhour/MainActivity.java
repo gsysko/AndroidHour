@@ -2,15 +2,13 @@ package com.uxd.androidhour;
 
 
 import android.app.ActionBar;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.NavUtils;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -28,6 +26,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Get the intent that started this activity
+        Intent intent = getIntent();
+        Uri data = intent.getData();
 
         // Set up the action bar to show a dropdown list.
         final ActionBar actionBar = getActionBar();
@@ -86,7 +88,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                 fragment = new DummySectionFragment();
                 break;
             case 2 :
-                fragment = new DummySectionFragment();
+                fragment = new PackageManagerFragment();
                 break;
             default :
                 fragment = new DummySectionFragment();

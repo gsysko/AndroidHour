@@ -5,6 +5,19 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent">
 
+    <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Intents"
+            android:id="@+id/textView"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"/>
+
     <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="8dp"
@@ -13,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Explicit intents:"
+                android:text="Explicit intent:"
                 android:id="@+id/tv_explicit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
         <Button
                 android:layout_width="fill_parent"
@@ -31,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Implicit intents:"
+                android:text="Implicit intent:"
                 android:id="@+id/tv_implicit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
         <Button
                 android:layout_width="fill_parent"
@@ -40,4 +53,37 @@
                 android:id="@+id/button_implicit" android:layout_below="@+id/tv_implicit" android:layout_centerHorizontal="true"
                 />
     </RelativeLayout>
+
+
+    <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Intent Filters"
+            android:id="@+id/textView"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="8dp"
+            android:background="@drawable/card_bg" android:padding="16dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Trigger intent filter:"
+                android:id="@+id/tv_implicit" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Request Example Dialog"
+                android:id="@+id/button_filter" android:layout_below="@+id/tv_implicit" android:layout_centerHorizontal="true"
+                />
+    </RelativeLayout>
+
 </LinearLayout>

@@ -41,6 +41,15 @@ public class IntentSelectionFragment extends Fragment {
                 startActivity(implicitIntent);
             }
         });
+
+        Button filterButton = (Button) v.findViewById(R.id.button_implicit);
+        filterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent filterableIntent = new Intent();
+                startActivity(filterableIntent);
+            }
+        });
     }
 
 }
