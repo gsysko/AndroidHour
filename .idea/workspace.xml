@@ -25,20 +25,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14693ea9-446f-484c-8f9b-f8c3d7695055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PackageManagerFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/PwrReceiver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidHour/src/main/res/layout/package_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" afterPath="$PROJECT_DIR$/AndroidHour/AndroidHour-AndroidHour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour.iml" afterPath="$PROJECT_DIR$/AndroidHour.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidHour/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" afterPath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/IntentSelectionFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java" afterPath="$PROJECT_DIR$/AndroidHour/src/main/java/com/uxd/androidhour/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/build/source/r/debug/com/uxd/androidhour/R.java" afterPath="$PROJECT_DIR$/AndroidHour/build/source/r/debug/com/uxd/androidhour/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/build/source/r/release/com/uxd/androidhour/R.java" afterPath="$PROJECT_DIR$/AndroidHour/build/source/r/release/com/uxd/androidhour/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/build.gradle" afterPath="$PROJECT_DIR$/AndroidHour/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml" afterPath="$PROJECT_DIR$/AndroidHour/src/main/res/layout/intent_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AndroidHour.iws" />
@@ -965,7 +951,11 @@
       <created>1371232869512</created>
       <updated>1371232869512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added section covering intents (implicit and explicit)">
+      <created>1379097454576</created>
+      <updated>1379097454576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
