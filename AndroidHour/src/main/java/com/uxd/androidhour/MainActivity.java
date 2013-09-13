@@ -90,6 +90,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
             case 2 :
                 fragment = new PackageManagerFragment();
                 break;
+            case 3 :
+                fragment = new LayoutFragment();
+                break;
             default :
                 fragment = new DummySectionFragment();
                 break;
