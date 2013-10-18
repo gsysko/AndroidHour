@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AndroidHour.Text.Title.Light.Grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+    <LinearLayout
+        android:id="@+id/one"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:background="@drawable/card_bg"
+        >
+
+        <TextView
+            style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="One"
+            android:id="@+id/textView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:background="@drawable/card_bg"
+        android:layout_toRightOf="@id/one"
+        >
+
+        <TextView             style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Two"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/three"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:background="@drawable/card_bg"
+        android:layout_below="@id/one"
+        >
+
+        <TextView             style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Three"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@drawable/card_bg"
+        android:layout_below="@id/three"
+        >
+
+        <TextView             style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Four"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal|top" />
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/five"
+    android:layout_width="180dp"
+    android:layout_height="100dp"
+    android:padding="20dp"
+    android:background="@drawable/card_bg"
+    android:layout_below="@id/three"
+    android:layout_toRightOf="@id/four"
+    >
+
+        <TextView             style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Five"
+            android:id="@+id/textView5" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="180dp"
+    android:layout_height="100dp"
+    android:padding="20dp"
+    android:background="@drawable/card_bg"
+    android:layout_toRightOf="@id/four"
+    android:layout_below="@id/five"
+        >
+
+        <TextView             style="@style/AndroidHour.Text.Title.Light.Grey"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Six"
+            android:id="@+id/textView6" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

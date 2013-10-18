@@ -29,6 +29,15 @@ public class LayoutFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        Button buttonRelative = (Button) v.findViewById(R.id.button_relative);
+        buttonRelative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), ActivityRelative.class);
+                startActivity(intent);
+            }
+        });
     }
 
 }

@@ -47,6 +47,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                                 "Intents",
                                 "Broadcasts",
                                 "Package manager",
+                                "Layouts"
                         }),
                 this);
     }
