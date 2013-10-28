@@ -41,6 +41,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.uxd.androidhour.MainActivity" />
         </activity>
+
         <activity
             android:name="com.uxd.androidhour.ActivityRelative"
             android:label="@string/title_activity_activity_relative"

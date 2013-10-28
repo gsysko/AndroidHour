@@ -36,18 +36,18 @@ public class IntentSelectionFragment extends Fragment {
         implicitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri webpage = Uri.parse("http://m-support.verizonwireless.com/mobile/");
+                Uri webpage = Uri.parse("http://m-support.verizonwireless.com");
                 Intent implicitIntent = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(implicitIntent);
             }
         });
 
-        Button filterButton = (Button) v.findViewById(R.id.button_implicit);
+        Button filterButton = (Button) v.findViewById(R.id.button_filter);
         filterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent filterableIntent = new Intent();
-                startActivity(filterableIntent);
+//                Intent filterableIntent = new Intent();
+//                startActivity(filterableIntent);
             }
         });
     }
