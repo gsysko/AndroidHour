@@ -90,9 +90,12 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                 break;
             case 2 :
                 fragment = new PackageManagerFragment();
+<<<<<<< HEAD
                 break;
             case 3 :
                 fragment = new LayoutFragment();
+=======
+>>>>>>> 5aeeb8afe1c671c741d762403b1ff16b57a2f39e
                 break;
             default :
                 fragment = new DummySectionFragment();
@@ -105,6 +108,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.OnNaviga
                 .replace(R.id.container, fragment)
                 .commit();
         return true;
+
     }
 
     /**
